@@ -1,15 +1,14 @@
 <?php
 /**
- * Plugin Name: Disable Lazy Loading
- * Plugin URI: http://domain.com/starter-plugin/
- * Description: Disbale core lazy loading feature. you can disable by post type or totally.
+ * Plugin Name: Disable Core Lazy Loading
+ * Description: Disable core lazy loading feature. you can disable by post type or totally.
  * Version: 1.0.0
  * Author: Sharaz Shahid
- * Author URI: https://twitter.com/sharazghouri1
+ * Author URI: http://sharazshahid.me/
  * Requires at least: 5.5
  * Tested up to: 5.5
  *
- * Text Domain: disable-ll
+ * Text Domain: disable-core-lazy-loading
  * Domain Path: /languages/
  *
  * @package disable_lazy_loading
@@ -110,7 +109,7 @@ final class Disable_Lazy_Loading {
 	 * @since   1.0.0
 	 */
 	public function __construct() {
-		$this->token       = 'disable-ll';
+		$this->token       = 'disable-core-lazy-loading';
 		$this->plugin_url  = plugin_dir_url( __FILE__ );
 		$this->plugin_path = plugin_dir_path( __FILE__ );
 		$this->version     = '1.0.0';
@@ -180,7 +179,7 @@ final class Disable_Lazy_Loading {
 	 * @since   1.0.0
 	 */
 	public function load_plugin_textdomain() {
-		load_plugin_textdomain( 'disable-ll', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+		load_plugin_textdomain( 'disable-core-lazy-loading', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 	} // End load_plugin_textdomain()
 
 	/**
