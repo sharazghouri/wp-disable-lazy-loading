@@ -50,7 +50,7 @@ if ( ! class_exists( 'Disable_Lazy_Loading_Admin' ) ) :
 		 * @since 1.0.0
 		 */
 		function admin_menu() {
-				add_options_page( __( 'Lazy Loading', 'disable-ll' ), __( 'Lazy Loading', 'disable-ll' ), 'delete_posts', 'lazy_loading', array( $this, 'plugin_page' ) );
+				add_options_page( __( 'Lazy Loading', 'disable-core-lazy-loading' ), __( 'Lazy Loading', 'disable-core-lazy-loading' ), 'delete_posts', 'lazy_loading', array( $this, 'plugin_page' ) );
 		}
 
 		/**
@@ -62,7 +62,7 @@ if ( ! class_exists( 'Disable_Lazy_Loading_Admin' ) ) :
 				$sections = array(
 					array(
 						'id'    => 'dll_basics',
-						'title' => __( 'Settings', 'disable-ll' ),
+						'title' => __( 'Settings', 'disable-core-lazy-loading' ),
 					),
 
 				);
@@ -83,23 +83,23 @@ if ( ! class_exists( 'Disable_Lazy_Loading_Admin' ) ) :
 					'dll_basics' => [
 						[
 							'name'  => 'disable_ll',
-							'label' => __( 'Disable Lazy Loading', 'disable-ll' ),
-							'desc'  => __( 'Check if you want to disable core lazy loading.', 'disable-ll' ),
+							'label' => __( 'Disable Lazy Loading', 'disable-core-lazy-loading' ),
+							'desc'  => __( 'Check if you want to disable core lazy loading.', 'disable-core-lazy-loading' ),
 							'type'  => 'checkbox',
 						],
 						[
 							'name'              => 'exclude_post_type',
 							'type'              => 'text',
-							'label'             => __( 'Exclude Post Types', 'disable-ll' ),
-							'desc'              => __( 'post,page,etc.', 'disable-ll' ),
+							'label'             => __( 'Exclude Post Types', 'disable-core-lazy-loading' ),
+							'desc'              => __( 'post,page,etc.', 'disable-core-lazy-loading' ),
 							'default'           => '',
 							'sanitize_callback' => 'sanitize_text_field',
 						],
 						[
 							'name'              => 'exclude_ids',
 							'type'              => 'text',
-							'label'             => __( 'Exclude By ID', 'disable-ll' ),
-							'desc'              => __( '(Page/Post/Custom Post Type) ID.', 'disable-ll' ),
+							'label'             => __( 'Exclude By ID', 'disable-core-lazy-loading' ),
+							'desc'              => __( '(Page/Post/Custom Post Type) ID.', 'disable-core-lazy-loading' ),
 							'placeholder'       => '1,3,4',
 							'default'           => '',
 							'sanitize_callback' => 'sanitize_text_field',

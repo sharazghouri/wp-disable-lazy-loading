@@ -1,7 +1,7 @@
 === Disable Lazy Loading ===
 Contributors: sharaz
 Donate link:
-Tags: lazy,loading,disable
+Tags: lazyload,loading,disable,images
 Requires at least: 5.5
 Tested up to: 5.5
 Stable tag: 1.0.0
@@ -33,7 +33,7 @@ Installing "Disable Lazy Loading" can be done either by searching for "Starter P
 
 = How do I contribute? =
 
-We encourage everyone to contribute their ideas, thoughts and code snippets. This can be done by forking the [repository over at GitHub](http://github.com/mattyza/starter-plugin/).
+We encourage everyone to contribute their ideas, thoughts and code snippets. This can be done by forking the [repository over at GitHub](https://github.com/sharazghouri/wp-disable-lazy-loading/).
 
 == Screenshots ==
 
