@@ -124,7 +124,7 @@ final class Disable_Lazy_Loading {
 		register_activation_hook( __FILE__, array( $this, 'install' ) );
 
 		add_action( 'wp', array( $this, 'disable_lazy_loading' ) );
-		add_action( 'init', array( $this, 'load_plugin_textdomain' ) );
+		//add_action( 'init', array( $this, 'load_plugin_textdomain' ) );
 	} // End __construct()
 
 	/**
