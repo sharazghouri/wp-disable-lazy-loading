@@ -1,7 +1,7 @@
 === Disable Lazy Loading ===
 Contributors: sharaz
 Donate link:
-Tags: lazyload,loading,disable,images
+Tags: lazyloading,loading,disable,images
 Requires at least: 5.5
 Tested up to: 5.5
 Stable tag: 1.0.0
@@ -12,12 +12,12 @@ Hey there! I'm your new starter plugin.
 
 == Description ==
 
-Disable core Lazy Loading . You can exclude lazy loading  Post Type or ID,
+Disable Lazy Loading . You can exclude lazy loading  Post Type or ID,
 
 
 == Usage ==
 
-Disable core Lazy Loading . You can exclude lazy loading  Post Type or ID.
+Disable Lazy Loading . You can exclude lazy loading  Post Type or ID.
 Visit Settings->Lazy Loading Page where you can play with settings.
 
 == Installation ==
