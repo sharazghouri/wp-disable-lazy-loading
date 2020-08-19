@@ -3,6 +3,7 @@ Contributors: sharaz
 Donate link:
 Tags: lazyloading, loading, disable, images, blocks
 Requires at least: 5.5
+Requires PHP: 7.0
 Tested up to: 5.5
 Stable tag: 1.0.0
 License: GPLv3 or later
