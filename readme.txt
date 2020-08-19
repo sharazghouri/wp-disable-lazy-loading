@@ -1,4 +1,4 @@
-=== Simple Disable Lazy Loading ===
+=== Disable Core Lazy Loading ===
 Contributors: sharaz
 Donate link: https://twitter.com/sharazghouri1
 Tags: lazyloading, loading, disable, images, blocks
