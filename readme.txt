@@ -1,6 +1,6 @@
-=== Disable Lazy Loading ===
+=== Simple Disable Lazy Loading ===
 Contributors: sharaz
-Donate link:
+Donate link: https://twitter.com/sharazghouri1
 Tags: lazyloading, loading, disable, images, blocks
 Requires at least: 5.5
 Requires PHP: 7.0
