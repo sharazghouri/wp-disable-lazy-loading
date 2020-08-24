@@ -166,7 +166,6 @@ final class Disable_Lazy_Loading {
 			$exc_post_types = explode( ',', $this->settings['exclude_post_type'] );
 			$exc_ids        = explode( ',', $this->settings['exclude_ids'] );
 			global $post;
-			var_dump( !in_array( $post->post_type, $exc_post_types ) , !in_array( $post->ID, $exc_ids ));
 			if ( ! in_array( $post->post_type, $exc_post_types ) && ! in_array( $post->ID, $exc_ids ) ) {
 				add_filter( 'wp_lazy_loading_enabled', '__return_false' );
 			}
